@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./angular.js"></script>
+    <script src="./assgnmt.js"></script>
+    <style>
+         .contains{
+            /* display: flex;
+            flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0 25px 30px;
+            display: grid;
+            grid-template-columns: repeat(4,4fr);
+            /* gap: 5px; */
+         } 
+         .contain{
+            /* text-align: center; */
+            margin: 0 20px;
+         }
+         .imagee{
+            width: 500px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 5px gray;
+         }
+         .brand{
+            color: black;
+            font-size: 1.5em;
+            font-weight: bold;
+         }
+         .price{
+            color: blue;
+            font-size: 1.2em;
+            font-weight: bold;
+         }
+    </style>
+</head>
+<body ng-controller="angController" ng-style="bodyObj">
+    <div ng-style="div" >
+        <img ng-src="{{img}}" ng-style="imgObjStyle" alt="">
+        <a href="" ng-repeat="link in links" ng-style="td">{{ link }}</a>
+    </div>
+    <br>
+        <a href="" ng-style="btn" ng-click="toggle()">Click Here To Load Images</a>
+    <br>
+        <input type="search" name="" id="" ng-model="search" placeholder="search images" ng-style="inp">
+    
+    <div ng-repeat="stuff in stuffs | orderBy: order | filter: search" ng-hide="choice" class="contains">
+       <img ng-src="{{stuff.imageUrl}}" alt="{{stuff.name}}" class="imagee">
+    <div class="contain">
+       <div class="brand">Brand: {{stuff.name}}</div>
+       <div class="price">Price: {{stuff.price}}</div>
+    </div>
+    </div>
+</body>
+</html>

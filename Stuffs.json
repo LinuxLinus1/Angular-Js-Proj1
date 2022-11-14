@@ -1,0 +1,76 @@
+[
+    {
+      "id": "BMW",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/BMW_G30_FL_IMG_5351.jpg/1280px-BMW_G30_FL_IMG_5351.jpg",
+      "name": "BMW",
+      "price": "$20,000"
+    },
+    {
+        "id": "Tesla",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2018_Tesla_Model_S_75D.jpg/1024px-2018_Tesla_Model_S_75D.jpg",
+        "name": "Tesla",
+        "price": "$21,000"
+    },
+    {
+        "id": "Toyota",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2021_Toyota_Sienna_XLE_Hybrid%2C_front_12.21.21.jpg/800px-2021_Toyota_Sienna_XLE_Hybrid%2C_front_12.21.21.jpg",
+        "name": "Toyota",
+        "price": "$22,000"
+    },
+    {
+        "id": "Ford",
+        "imageUrl": "https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/legacy/nameplate/suvs/21_FRD_ECO_40421_v2_Segment_pg.jpg/jcr:content/renditions/cq5dam.web.768.768.jpeg",
+        "name": "Ford",
+        "price": "$23,000"
+    },
+    {
+        "id": "Acura",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/2022_Acura_MDX_%28United_States%29_front_view_01.png/1280px-2022_Acura_MDX_%28United_States%29_front_view_01.png",
+        "name": "Acura",
+        "price": "$24,000"
+    },
+    {
+        "id": "Audi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/R8_Coupe_V10_performance-1.jpg/1024px-R8_Coupe_V10_performance-1.jpg",
+        "name": "Audi",
+        "price": "$25,000"
+    },
+    {
+        "id": "Bentley",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bentley_Mulsanne_%282009%29_IMG_4112.jpg/1280px-Bentley_Mulsanne_%282009%29_IMG_4112.jpg",
+        "name": "Bentley",
+        "price": "$26,000"
+    },
+    {
+        "id": "Ferrari",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Red_2019_Ferrari_SF90_Stradale_%2848264238897%29_%28cropped%29.jpg/1280px-Red_2019_Ferrari_SF90_Stradale_%2848264238897%29_%28cropped%29.jpg",
+        "name": "Ferrari",
+        "price": "$25,000"
+    },
+    {
+        "id": "Honda",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/2017_Honda_Civic_SR_VTEC_1.0_Front.jpg/1280px-2017_Honda_Civic_SR_VTEC_1.0_Front.jpg",
+        "name": "Honda",
+        "price": "$29,000"
+    },
+    {
+        "id": "Mercedes-Benz",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mercedes-Benz_C_200_Avantgarde_%28W_205%29_%E2%80%93_Frontansicht%2C_26._April_2014%2C_D%C3%BCsseldorf.jpg/1280px-Mercedes-Benz_C_200_Avantgarde_%28W_205%29_%E2%80%93_Frontansicht%2C_26._April_2014%2C_D%C3%BCsseldorf.jpg",
+        "name": "Mercedes-Benz",
+        "price": "$22,000"
+    },
+    {
+        "id": "Lamborghini",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Lamborghini_Aventador_LP700-4_Orange.jpg/1280px-Lamborghini_Aventador_LP700-4_Orange.jpg",
+        "name": "Lamborghini",
+        "price": "$30,000"
+    },
+    {
+        "id": "Porsche",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2019_Porsche_Panamera_4_E-Hybrid_Sport_Turismo_2.9_Front.jpg/1280px-2019_Porsche_Panamera_4_E-Hybrid_Sport_Turismo_2.9_Front.jpg",
+        "name": "Porsche",
+        "price": "$26,000"
+    }
+
+
+  ]
